@@ -1,6 +1,9 @@
 # Ghost
 This Lua module provides network-related functions such as ping, WHOIS lookup, traceroute, and HTTP requests.
 
+# Is this gonna be updated?
+Probably.
+
 # Dependencies
 Curl: https://curl.se/download.html
 
