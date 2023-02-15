@@ -3,8 +3,11 @@ This Lua module provides network-related functions such as ping, WHOIS lookup, t
 
 # Dependencies
 Curl: https://curl.se/download.html
+
 Whois: http://www.linux.it/~md/software/
+
 Traceroute: https://github.com/korczis/traceroute-windows
+
 LuaSocket (optional, for additional networking functionality): https://github.com/diegonehab/luasocket
 
 Please make sure you have these dependencies installed and added to your system's PATH environment variable before using this module.
