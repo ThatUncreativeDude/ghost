@@ -26,22 +26,11 @@
     Version: 1.0.0
 --]]
 
--- Check if the user is on Windows 10
-if os.getenv("OS") ~= "Windows_NT" or tonumber(os.getenv("PROCESSOR_ARCHITECTURE")) ~= 9 then
-    print("Sorry, this script does not support your OS")
-    os.exit()
-  end
-  
-  -- Check if the user is on Windows 11
-  if os.getenv("OS") == "Windows_NT" and tonumber(os.getenv("PROCESSOR_ARCHITECTURE")) == 9 and tonumber(os.getenv("WINDOWS_PRODUCT_NAME_MAJOR_VERSION")) == 11 then
-    print("Warning: This script may not be optimized for Windows 11")
-  end
-  
   -- Define the Ghost module
   local Ghost = {}
   
   -- Define module level constants
-  Ghost.VERSION = "1.0.0"
+  Ghost.VERSION = "1.0.1"
   
   -- Ping an IP address and print the response
   function Ghost.ping(ip)
