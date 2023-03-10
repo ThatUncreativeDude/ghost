@@ -23,7 +23,7 @@
       local response_body = Ghost.http_request("https://example.com") -- Makes an HTTP request to the given URL and returns the response body
 
     Author: @ThatUncreativeDude on GitHub
-    Version: 1.0.0
+    Version: 1.0.1
 --]]
 
   -- Define the Ghost module
